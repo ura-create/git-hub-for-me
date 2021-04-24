@@ -7,6 +7,5 @@ int main(){
     std::cout<<*ptr<<std::endl;
     int &ref = a;
     a = 5;
-    std::cout<<a<<std::endl;
-    std::cout<<*ptr<<std::endl;
+    std::cout<<a<<" and "<<*ptr<<std::endl;
 }
