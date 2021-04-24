@@ -8,4 +8,5 @@ int main(){
     int &ref = a;
     a = 5;
     std::cout<<a<<std::endl;
+    std::cout<<*ptr<<std::endl;
 }
